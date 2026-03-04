@@ -84,3 +84,12 @@ select:focus {
     left: 1%;
     bottom:20%; 
 }
+
+.nav-footer a:first-child{
+    background-color: #38597a;
+}
+
+.nav-footer [href]:hover{
+    background-color: #031930;
+    color: blue;
+}
