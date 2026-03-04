@@ -87,6 +87,7 @@ select:focus {
 
 .nav-footer a:first-child{
     background-color: #38597a;
+    color:rgb(14, 14, 56);
 }
 
 .nav-footer [href]:hover{
