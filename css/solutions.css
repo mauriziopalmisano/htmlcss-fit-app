@@ -36,8 +36,9 @@ div[style] .exercise-item:nth-child(3n+1) {
 div[style] .exercise-item:nth-child(2n+2)::before {
     content: "\26A1";
 }
-    
-input:focus, select:focus {
+
+input:focus,
+select:focus {
     outline: solid 2px blue;
     box-shadow: 0 0 0 5px rgba(37, 99, 235, 0.25);
     transition: border-color 0.25s ease, box-shadow 0.25s ease;
@@ -47,4 +48,15 @@ input:focus, select:focus {
     transform: translateY(-2px);
     box-shadow: 0 10px 20px blue;
     background-color: blue;
+}
+
+.progress-bar .progress-fill::after {
+    content: "65%";
+    display: block;
+    color: white;
+    font-size: 0.5rem;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    transform: translateY(2px);
 }
