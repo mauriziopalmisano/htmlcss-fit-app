@@ -21,6 +21,7 @@
 .stats-container .stats-grid:hover {
     transform: translateY(-5px);
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
 }
 
 .workout-section .workout-plan:nth-child(3) {
@@ -48,6 +49,7 @@ select:focus {
     transform: translateY(-2px);
     box-shadow: 0 10px 20px blue;
     background-color: blue;
+    transition: transform 0.25s ease, box-shadow 0.25s ease, background-color 0.25s ease;
 }
 
 .progress-bar .progress-fill::after {
@@ -59,4 +61,26 @@ select:focus {
     right: 0;
     bottom: 0;
     transform: translateY(2px);
+}
+
+.quote-box p:first-child::after{
+    content: "\201D";
+    color: rgba(255, 255, 255, 0.5);
+    display: inline-block;
+    position: absolute;
+    font-size: 3rem;
+    right: 2%;
+    top:40%;
+    transform: translateX(-5px);
+
+}
+
+.quote-box p:first-child::before{
+    content: "\201C";
+    color: rgba(255, 255, 255, 0.5);
+    display: inline-block;
+    position: absolute;
+    font-size: 3rem;
+    left: 1%;
+    bottom:20%; 
 }
