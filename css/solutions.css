@@ -1,4 +1,4 @@
-.stats-container :first-child.stats-grid::before{
+.stats-container .stats-grid:first-child::before{
     content: "\1F525";
     display: block;
     font-size: 2rem;
@@ -23,3 +23,7 @@
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
 }
 
+.workout-section .workout-plan:nth-child(3){
+    background-color: #f7e29e;
+    border-left: orange 5px solid;
+}
