@@ -24,6 +24,15 @@
 }
 
 .workout-section .workout-plan:nth-child(3){
-    background-color: #f7e29e;
+    background-color: #fff8ba;
     border-left: orange 5px solid;
+}
+
+div[style] .exercise-item:nth-child(3n+1){
+    background-color:#f0fff4;
+    border-left:#2ecb71 solid;
+}
+
+div[style] .exercise-item:nth-child(2n+2)::before{
+    content:"\26A1";
 }
