@@ -1,0 +1,7 @@
+.stats-container :first-child.stats-grid::before{
+    content: "\1F525";
+    display: block;
+    font-size: 2rem;
+    text-align: center;
+
+}
