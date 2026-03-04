@@ -92,4 +92,5 @@ select:focus {
 .nav-footer [href]:hover{
     background-color: #031930;
     color: blue;
+    transition: background-color 0.25s ease, color 0.25s ease;
 }
