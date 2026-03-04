@@ -1,4 +1,4 @@
-.stats-container .stats-grid:first-child::before{
+.stats-container .stats-grid:first-child::before {
     content: "\1F525";
     display: block;
     font-size: 2rem;
@@ -6,33 +6,39 @@
 
 }
 
-.stats-container .stats-grid:nth-child(3){
+.stats-container .stats-grid:nth-child(3) {
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
 }
 
-.stats-grid:nth-child(3) .stat-number{
+.stats-grid:nth-child(3) .stat-number {
     color: white;
 }
 
-.stats-grid:nth-child(3) .stat-label{
+.stats-grid:nth-child(3) .stat-label {
     color: white;
 }
 
-.stats-container .stats-grid:hover{
+.stats-container .stats-grid:hover {
     transform: translateY(-5px);
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
 }
 
-.workout-section .workout-plan:nth-child(3){
+.workout-section .workout-plan:nth-child(3) {
     background-color: #fff8ba;
     border-left: orange 5px solid;
 }
 
-div[style] .exercise-item:nth-child(3n+1){
-    background-color:#f0fff4;
-    border-left:#2ecb71 solid;
+div[style] .exercise-item:nth-child(3n+1) {
+    background-color: #f0fff4;
+    border-left: #2ecb71 5px solid;
 }
 
-div[style] .exercise-item:nth-child(2n+2)::before{
-    content:"\26A1";
+div[style] .exercise-item:nth-child(2n+2)::before {
+    content: "\26A1";
+}
+    
+input:focus, select:focus {
+    outline: solid 2px blue;
+    box-shadow: 0 0 0 5px rgba(37, 99, 235, 0.25);
+    transition: border-color 0.25s ease, box-shadow 0.25s ease;
 }
