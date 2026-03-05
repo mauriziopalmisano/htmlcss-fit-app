@@ -10,10 +10,8 @@
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
 }
 
-.stats-grid:nth-child(3) .stat-number {
-    color: white;
-}
 
+.stats-grid:nth-child(3) .stat-number,
 .stats-grid:nth-child(3) .stat-label {
     color: white;
 }
